@@ -1,0 +1,236 @@
+
+body {
+    font-family: Bookman;
+    /* 'Times New Roman', serif; */
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    color: #011c3f; /* Deep blue color */
+    /* background: #e0f7fa; Light blue background */
+    background-image: url("god.png");
+    height: 100%;
+    /* opacity: 0.4; */
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: inline;
+    align-items: center;
+    justify-content: center; */
+    
+}
+.videos{
+    width: 300px;
+    height: 400px;
+}
+.text{
+    color: #0a5ea7;
+    /* #925506; */
+    /* max-width: 1000px; */
+    justify-content: center;
+    font-size: 1.3em;
+    /* justify-items: center;
+    align-items: center; */
+}
+.text5{
+    color: #0a5ea7;
+    /* #925506; */
+    /* max-width: 1000px; */
+    justify-content: left;
+    font-size: 1.3em;
+    /* justify-items: center;
+    align-items: center; */
+    line-height: 1.2;
+}
+.text8{
+    color: #0a5ea7;
+    /* #925506; */
+    /* max-width: 1000px; */
+    justify-content: left;
+    font-size: 1.3em;
+    /* justify-items: center;
+    align-items: center; */
+    line-height: 3.5;
+}
+.text6{
+    color: #0a5ea7;
+    /* max-width: 1000px; */
+    justify-content: left;
+    font-size: 0.9em;
+    max-height: 470px;
+    margin: 0 auto;
+    width: 600px; /* Hoặc kích thước cụ thể */
+    height: 400px;
+    border: 5px double #023667;
+    padding: 40px;
+    text-align: justify;
+
+}
+
+.text2{
+    color: #0a5ea7;
+    /* max-width: 1000px; */
+    justify-content: center;
+    font-size: 1.6em;
+    /* justify-items: center;
+    align-items: center; */
+}
+.text3{
+    color: #0a5ea7;
+    /* max-width: 1000px; */
+    justify-content: center;
+    font-size: 1.3em;
+    max-height: 470px;
+    margin: 0 auto;
+    width: 43%; /* Hoặc kích thước cụ thể */
+    border: 5px double #023667;
+}
+.text4{
+    color: #0a5ea7;
+    /* max-width: 1000px; */
+    justify-content: center;
+    font-size: 1.3em;
+    max-height: 470px;
+    margin: 0 auto;
+    width: 86%; /* Hoặc kích thước cụ thể */
+    border: 5px double #023667;
+}
+.b1{
+    color: #e4b4a4;
+    /* max-width: 1000px; */
+    justify-content: center;
+    font-size: 2.4em;
+    position: absolute;
+    top: 1670px; 
+    left: 650px;
+    z-index: 10;
+}
+.b2{
+    color: #e4b4a4;
+    /* max-width: 1000px; */
+    justify-content: center;
+    font-size: 2em;
+    position: absolute;
+    top: 1730px; 
+    left: 681px;
+    z-index: 10;
+}
+.b3{
+    color: #e4b4a4;
+    /* max-width: 1000px; */
+    justify-content: center;
+    font-size: 1.5em;
+    position: absolute;
+    top: 1790px; 
+    left: 688px;
+}
+.time{
+    color: #0a5ea7;
+    font-size: 2.5em;
+    font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 5px double #023667;
+    margin: 0 auto;
+    width: 38%; /* Hoặc kích thước cụ thể */
+}
+header {
+    background: transparent; /* Darker blue for contrast */
+    color: #043d88;
+    padding: 40px 0;
+    text-align: center;
+    /* opacity: 0.5; */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 5em;
+}
+
+section {
+    padding: 40px 20px;
+    margin: 20px;
+    /* background: #white;  */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 10px; /* Rounded corners */
+}
+
+section h2 {
+    color: #043d88; /* Harmonizing with the header color */
+    font-size: 3em;
+}
+.text7{
+    text-align: center;
+}
+#gallery, #video, #audio-player, #our-story, #countdown, #sacred-connection {
+    text-align: center;
+}
+/* #our-story, #messages, #countdown{
+    max-width: 1200px;
+    justify-content: center;
+} */
+.imgs{
+    width: 300px; /* Increased size */
+    height: auto;
+}
+footer {
+    text-align: center;
+    padding: 30px 0;
+    background: #3b6978;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    section {
+        padding: 20px 10px;
+    }
+}
+.icons a {
+    display: inline-block;
+    margin: 5px;
+}
+.icons img {
+    width: 186px; /* Increased icon size */
+    height: 136px;
+}
+.heart {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 150px auto;
+    background-color: #0a5ea7;
+    /* rgb(13, 148, 238); */
+    /* rgb(249, 41, 41); */
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 0;
+}
+.heart:before,
+.heart:after {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    content: '';
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background-color:  #0a5ea7;
+    z-index: 0;
+}
+.heart:before {
+    bottom: 0px;
+    left: -100px;
+    /* z-index: 0; */
+}
+.heart:after {
+    top: -100px;
+    right: 0px;
+    /* z-index: 0; */
+}
