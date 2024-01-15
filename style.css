@@ -167,6 +167,9 @@ section h2 {
     max-width: 1200px;
     justify-content: center;
 } */
+#audio-player {
+    flex: 1
+}
 .imgs{
     width: 300px; /* Increased size */
     height: auto;
@@ -233,4 +236,7 @@ footer {
     top: -100px;
     right: 0px;
     /* z-index: 0; */
+}
+.parent-div {
+    display: flex; /* Enables flexbox layout */
 }
